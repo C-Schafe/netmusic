@@ -1,0 +1,12 @@
+<!doctype html>
+<head>
+</head>
+<body>
+  <script>
+    var xhr = new XHLHttpRequest()
+    xhr.open('GET','/data.json')
+    xhr.onload = function(data){
+      console.log(data)
+    }
+  </script>
+</body>
